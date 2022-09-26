@@ -1,6 +1,8 @@
 #include<stdio.h>
 int main()
-{	float  fahrenheit,conversion;
+{	
+	//farhenheit to celcius conveter 
+	float  fahrenheit,conversion;
 	printf("\nGive the value in fahrenheit : ");
 	scanf("%f",&fahrenheit);
 	conversion = ((fahrenheit-32)/1.8);	
